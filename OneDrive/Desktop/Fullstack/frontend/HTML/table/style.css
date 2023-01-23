@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    
+}
+table{
+    border-collapse: collapse;
+    background-color: greenyellow;
+    text-align: center;
+    margin: 20px;
+    
+}
+/* th{
+    background-color: beige;
+} */

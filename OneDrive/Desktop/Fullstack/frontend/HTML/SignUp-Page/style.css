@@ -1,0 +1,99 @@
+body{
+    background-color: #FF7978;
+    color: white;
+    
+}
+main{
+    display: flex;
+    font-family: sans-serif;
+
+}
+#sec1{
+    /* margin-top: 25vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7vw;
+
+}
+
+#heading{
+    font-size: x-large ;
+    width: 100%;
+    text-align: justify;
+
+}
+h1{
+    width: 100%;
+    margin: auto;
+
+    
+}
+#para{
+    line-height: 30px;
+}
+#sec2{
+    margin: 8%;
+}
+#offer{
+    font-weight: bold;
+    background-color: rgb(127, 51, 240);
+    padding: 3px 75px;
+    border-radius: 4px;
+}
+#price{
+    font-weight: lighter;
+}
+#form{
+    background-color: white;
+    border-radius: 4px;
+    /* padding: 3px 80px; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+form>div>input{
+    width: 90%;
+    margin: 6.5px;
+    padding-left: 5%;
+    padding-top: 3.7%;
+    padding-bottom: 3.7%;
+
+}
+button{
+    padding: 3px 75px;
+    background-color: #37CC89;
+    border-color:  #37CC89;
+    border-radius: 3px;
+    color: white;
+    margin: 10px;
+    justify-content: center;
+}
+#instructions{
+    color: gray;
+    font-size: x-small;
+    text-align: center;
+
+}
+#terms{
+    color: red;
+}
+@media screen and (max-width: 600px){ 
+    main{
+        flex-direction: column;
+    }
+    #heading{
+        text-align: center;
+    }
+    #para{
+        text-align: center;
+    }
+    #offer{
+        text-align: center;
+    }
+    #price{
+        text-align: center;
+    }
+}
